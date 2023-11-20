@@ -19,7 +19,7 @@
 ## Implementation of Services
 ### Spotify API
 
-One would need developer app credentials (Client ID, Client Secret) to transact with the Spotify Web API. You can follow how to create them here.
+One would need developer app credentials (Client ID, Client Secret) to transact with the Spotify Web API. 
 
 ### Amazon EventBridge
 
