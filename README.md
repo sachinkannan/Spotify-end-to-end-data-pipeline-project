@@ -18,8 +18,12 @@
 
 ## Implementation of Services
 ### Spotify API
-
+![](https://github.com/sachinkannan/Spotify-end-to-end-data-pipeline-project/blob/main/spotify_api.png)
 One would need developer app credentials (Client ID, Client Secret) to transact with the Spotify Web API. 
+
+## AWS Services Used in this Project
+![](https://github.com/sachinkannan/Spotify-end-to-end-data-pipeline-project/blob/main/aws_services_used_1.png)
+![](https://github.com/sachinkannan/Spotify-end-to-end-data-pipeline-project/blob/main/aws_services_used_2.png)
 
 ### Amazon EventBridge
 
