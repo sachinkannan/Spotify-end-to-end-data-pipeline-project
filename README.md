@@ -25,11 +25,6 @@ One would need developer app credentials (Client ID, Client Secret) to transact 
 ![](https://github.com/sachinkannan/Spotify-end-to-end-data-pipeline-project/blob/main/aws_services_used_1.png)
 ![](https://github.com/sachinkannan/Spotify-end-to-end-data-pipeline-project/blob/main/aws_services_used_2.png)
 
-### Amazon EventBridge
-
-Create new EventBridge Rule to run at a given schedule (eg. every 1 day, week).
-Set the trigger's target to be the Lambda function for Data Extraction from the Spotify API.
-
 ### AWS Lambda - Data Extraction
 
 Create the Lambda Function for Data Extraction spotify_api_data_extract which runs on an appropriate Python runtime (eg. Python 3.8+).
@@ -42,6 +37,11 @@ Create an S3 bucket spotify-etl-project-demo which will manage both raw data (fr
 Create two primary folders: raw_data/ and transformed_data/.
 raw_data/: will contain subfolders - processed/, to_processed/ which will contain and manage the raw playlist data.
 transformed_data/: will contain subfolders - artist_data/, album_data/, song_data/ which will contain and manage the artist, album and song structured data.
+
+### Amazon EventBridge
+
+Create new EventBridge Rule to run at a given schedule (eg. every 1 day, week).
+Set the trigger's target to be the Lambda function for Data Extraction from the Spotify API.
 
 ### AWS Lambda - Data Transformation
 
