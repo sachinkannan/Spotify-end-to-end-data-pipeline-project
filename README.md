@@ -1,6 +1,6 @@
 # Spotfiy Data Pipeline End-To-End Python Data Engineering Project
 
-## Implement Complete Data Pipeline Data Engineering Project using Spotify
+## Implement Complete  Spotify Data Pipeline Data Engineering Project using AWS
 
 * Integrating with Spotify API and extracting Data
 * Deploying code on AWS Lambda for Data Extraction
